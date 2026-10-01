@@ -1,0 +1,18 @@
+#!/bin/bash
+
+choice=$(printf "Lock\nLogout\nReboot\nShutdown" | fuzzel --dmenu --prompt="Power: ")
+
+case "$choice" in
+    "Lock")
+        swaylock -f
+        ;;
+    "Logout")
+        swaymsg exit
+        ;;
+    "Reboot")
+        systemctl reboot
+        ;;
+    "Shutdown")
+        systemctl poweroff
+        ;;
+esac

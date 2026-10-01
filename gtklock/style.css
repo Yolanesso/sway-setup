@@ -1,0 +1,33 @@
+window {
+    background-color: #111111;
+}
+
+#clock-label {
+    font-size: 64px;
+    font-weight: 400;
+    color: #dddddd;
+}
+
+#date-label {
+    font-size: 18px;
+    color: #888888;
+}
+
+#input-field {
+    min-width: 250px;
+    min-height: 36px;
+
+    background-color: #1a1a1a;
+    color: #dddddd;
+
+    border: 1px solid #555555;
+    border-radius: 0;
+}
+
+#unlock-button {
+    background-color: #222222;
+    color: #dddddd;
+
+    border: 1px solid #555555;
+    border-radius: 0;
+}
